@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-para {
+  color: #000;
+  font-family: Syne;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.16px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.result-main {
+  padding-left: 7.407%;
+  padding-right: 7.407%;
+}
+
+.result-card-main {
+  /* padding-left: 7.407%; */
+  /* padding-right: 7.407%; */
+  display: flex;
+  /* background-color: aqua; */
+  flex-shrink: 0;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.inner-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+
+.result-image {
+  display: flex;
+  width: 25.74%;
+  height: 224px;
+  flex-shrink: 0;
+  border-radius: 8px 0px 0px 8px;
+  background-color: aquamarine;
+  /* background: lightgray 50% / cover no-repeat; */
+}
+
+.result-other {
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  /* background: #fff; */
+}
+
+/* .result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  color: rgba(0, 0, 0, 1);
+} */
+
+.result-other-box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+.result-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.innerbox-1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.title {
+  display: flex;
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.date {
+  display: flex;
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.price {
+  display: flex;
+  width: 145px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  align-self: stretch;
+}
+
+.venue {
+  display: flex;
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.attendies {
+  display: flex;
+  flex: 1 0 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  align-self: stretch;
+}
+
+.organizer {
+  display: flex;
+  flex: 1 0 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  align-self: stretch;
+  line-height: 24px;
+}

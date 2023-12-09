@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal4-main {
+  display: inline-flex;
+  position: fixed;
+  top: 10%;
+  right: 15%;
+  z-index: 400;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+}
+
+.modal4-box2 {
+  display: flex;
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#modal4-box3 {
+  display: flex;
+  align-self: stretch;
+}
+#form4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+#label {
+  color: #1a1a38;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.08px;
+}
+
+#input {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #f5f6f6;
+}
+
+.modal4-box4 {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #d7dcf8;
+  background: #fcfcfc;
+}
+.robot {
+  display: flex;
+  width: 149px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.modal4-rec {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #94248c;
+  background: #fcfcfc;
+}
+
+.recap {
+  width: 120px;
+  height: 60px;
+}

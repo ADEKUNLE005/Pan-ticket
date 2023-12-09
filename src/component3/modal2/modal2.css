@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal2-main {
+  display: inline-flex;
+  position: fixed;
+  top: 10%;
+  right: 15%;
+  z-index: 400;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+}
+
+.para-pay {
+  display: flex;
+  flex: 1 0 0;
+  color: #94248c;
+  font-family: Syne;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: 0.64px;
+}
+
+.modal2-box1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.modal2-box2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.modal2-para2 {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #333;
+  text-align: center;
+  font-family: Syne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.48px;
+  border-bottom: 2px solid #94248c;
+  background: #fff;
+}
+.modal2-para3 {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+  color: rgba(51, 51, 51, 0.2);
+  text-align: center;
+  font-family: Syne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.48px;
+}
+
+.modal2-box3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.modal2-innerboxa {
+  display: flex;
+  width: 381px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.row-2 {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.modal2-innerboxb {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
